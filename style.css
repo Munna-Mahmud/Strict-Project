@@ -285,6 +285,12 @@ margin-bottom: 20px;
      background: transparent;
      color: white;
      border: 1px solid #15a4fa;
+     transition: 1s;
+
+ }
+.btn-primary:hover{
+     color: white;
+     background:#15a4fa ;
  }
  /* <!-- stay-section End   */
  
