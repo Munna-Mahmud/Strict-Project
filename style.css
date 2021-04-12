@@ -40,6 +40,51 @@ float: left;
     background: #f6f9f9;
     padding: 5px 0px;
 }
+.header-section .navber{
+    width: 100%;
+    float: left;
+}
+.header-section .navber ul{
+    display: block;
+    text-align: right;
+    margin: 10px 0px;
+
+}
+.header-section .navber ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 12px;
+}
+.header-section .navber ul li a{
+text-decoration: none;
+font-size: 14px;
+text-transform: uppercase;
+color: black;
+font-weight: 700;
+}
+.header-section .navber ul li .dot::after{
+    content: " ";
+    background: #15a4fa;
+    width: 0%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+.header-section .navber ul li .dot:hover::after{
+    width: 100%;
+}
+.border{
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.border:hover{
+    background: #15a4fa;
+    color: black;
+}
+
 .logo{
     width: 100%;
     float: left;
@@ -286,15 +331,14 @@ margin-bottom: 20px;
      color: white;
      border: 1px solid #15a4fa;
      transition: 1s;
-
  }
-.btn-primary:hover{
+ .btn-primary:hover{
      color: white;
      background:#15a4fa ;
  }
  /* <!-- stay-section End   */
- 
- /* <!-- footer section End  --> */
+
+ /* <!-- footer section start  --> */
 
 .footer-section{
     width: 100%;
@@ -313,4 +357,4 @@ margin-top: 20px;
     margin: 10px 3px 0px;
 
 }
-/* <!-- footer section End  --> */
+/*-- footer section End  ***/
